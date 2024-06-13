@@ -1,0 +1,68 @@
+body {
+    background-color: lightgray;
+    img
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    text-align: center;
+    margin-left: 100px;
+    padding-bottom: 100px;
+
+}
+.top-section {
+    background-image: url('Padilla\ bay.jpeg');
+    background-size: cover; /* Adjust the size of the image to cover the area */
+    background-position: center; /* Center the image */
+    height: 300px; /* Set the height of the top section */
+    color: white; /* Text color */
+    text-align: center; /* Center the text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Beautiful {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.Sites {
+    color: darkblue;
+    background-color: white;
+    width: 1200px;
+    text-align: center;
+    margin-left: auto;
+}
+
+footer {
+    border: 3px lavender;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: lavender;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: inline;
+    display: block;
+
+  }
+  
+ li {
+    float:unset;
+
+  }
+
+li a { 
+     display: block;
+     color: gray;
+     text-align:center;
+     padding: 14px 16px;
+     text-decoration: none;
+}
+li a: hover {
+    background-color: #111;
+}
